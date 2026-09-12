@@ -1,0 +1,120 @@
+/* Default CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6f9;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #163a5c;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1f4e79;
+}
+
+h3 {
+    color: #2f6690;
+}
+
+p {
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+a {
+    color: #1f4e79;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #1f4e79;
+    margin: 30px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f4e79;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #163a5c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
